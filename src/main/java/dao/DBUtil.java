@@ -13,9 +13,9 @@ import java.util.Map;
  * 数据库操作工具类
  */
 public class DBUtil {
-    private static final String            jdbcUrl     = "jdbc:mysql://localhost:3306/shop";
+    private static final String            jdbcUrl     = "jdbc:mysql://localhost:3306/bookstore";
     private static final String            user        = "root";
-    private static final String            passwd      = "";
+    private static final String            passwd      = "root";
     private static Map<Thread, Connection> connections = new HashMap<Thread, Connection>();
     static {
         try {

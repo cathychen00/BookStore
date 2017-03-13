@@ -13,7 +13,7 @@ create table users(
   adm  int
 );
 
-insert into users(name,passwd,adm) values('tom','123',0);
+insert into users(name,passwd,adm) values('chenjing','123',0);
 insert into users(name,passwd,adm) values('admin','admin',1);
 
 ------------------------------------------
