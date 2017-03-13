@@ -16,7 +16,6 @@ public class LoginServlet extends BaseServlet {
     UserService userService=new UserService();
 
     protected void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //todo:/common/bookList.action
         String uri = "/common/bookList.action";
 
         User user = (User) populate(request, new User());
