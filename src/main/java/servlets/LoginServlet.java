@@ -31,6 +31,7 @@ public class LoginServlet extends BaseServlet {
                 //todo:/admin/bookList.action
                 uri = "/admin/bookList.action";
             }
+            //设置登录用户session
             request.getSession().setAttribute("currentUser", user);
         } catch (ShopException e) {
             e.printStackTrace();

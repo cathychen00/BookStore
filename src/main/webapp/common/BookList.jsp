@@ -14,8 +14,9 @@
     <title>Title</title>
 </head>
 <body>
+<jsp:include page="/inc/menu.jsp"></jsp:include>
+
 <div>
-    书籍列表
     <table>
         <c:forEach items="${storages}" var="s">
             <tr>

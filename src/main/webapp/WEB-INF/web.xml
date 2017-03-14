@@ -36,4 +36,21 @@
     <servlet-name>BookListServlet</servlet-name>
     <url-pattern>/common/bookList.action</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>adminBookListServlet</servlet-name>
+    <servlet-class>servlets.admin.BookListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminBookListServlet</servlet-name>
+    <url-pattern>/admin/bookList.action</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>adminBookAddServlet</servlet-name>
+    <servlet-class>servlets.admin.BookAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminBookAddServlet</servlet-name>
+    <url-pattern>/admin/bookAdd.action</url-pattern>
+  </servlet-mapping>
 </web-app>
